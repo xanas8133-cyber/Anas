@@ -1,0 +1,11 @@
+### Get all tasks
+GET http://localhost:3000/tasks
+
+### Add a new task
+POST http://localhost:3000/tasks?title=BuyMilk
+
+### Complete a task (replace 1 with an actual ID)
+POST http://localhost:3000/tasks/1/complete
+
+### Delete a task (replace 1 with an actual ID)
+DELETE http://localhost:3000/tasks/1
